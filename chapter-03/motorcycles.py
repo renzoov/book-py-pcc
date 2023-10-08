@@ -37,8 +37,9 @@ print(motorcycles)
 
 popped_motorcycle = motorcycles.pop()
 first_owned = motorcycles.pop(0)
-print(motorcycles)
 print(popped_motorcycle)
+print(first_owned)
+print(motorcycles)
 print(f"The first motorcycle I owned was a {first_owned.title()}.")
 print(f"The last motorcycle I owned was a {popped_motorcycle.title()}.")
 
